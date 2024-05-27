@@ -20,7 +20,7 @@ anot_libは、画像アノテーションデータを格納および操作する
 
 ```toml
 [dependencies]
-anot_lib = { git = "https://github.com/yourusername/anot_lib.git" }
+anot_lib = { git = "https://github.com/SuguruIrie3224/anotlib.git" }
 ```
 
 ### 2. 使用例
