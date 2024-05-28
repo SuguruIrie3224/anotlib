@@ -1,6 +1,6 @@
-# anot_lib
+# anotlib
 
-anot_libは、画像アノテーションデータを格納および操作するためのRustライブラリです。画像、バウンディングボックス、コメントを含むアノテーションファイルをJSON形式で読み書きする機能を提供します。
+anotlibは、画像アノテーションデータを格納および操作するためのRustライブラリです。画像、バウンディングボックス、コメントを含むアノテーションファイルをJSON形式で読み書きする機能を提供します。
 
 ## 特徴
 
@@ -20,7 +20,7 @@ anot_libは、画像アノテーションデータを格納および操作する
 
 ```toml
 [dependencies]
-anot_lib = { git = "https://github.com/SuguruIrie3224/anotlib.git" }
+anotlib = { git = "https://github.com/SuguruIrie3224/anotlib.git" }
 ```
 
 ### 2. 使用例
@@ -38,13 +38,13 @@ cd example_project
 
 ```toml
 [dependencies]
-anot_lib = { git = "https://github.com/yourusername/anot_lib.git" }
+anotlib = { git = "https://github.com/yourusername/anot_lib.git" }
 ```
 
 3. `src/main.rs` ファイルを編集してライブラリを使用します。
 
 ```rust
-use anot_lib::{Annotations, Annotation, Image, ImageSize, BoundingBox, Coordinates};
+use anotlib::{Annotations, Annotation, Image, ImageSize, BoundingBox, Coordinates};
 use std::fs;
 
 fn main() {
